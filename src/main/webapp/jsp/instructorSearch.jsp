@@ -8,7 +8,6 @@
 <%@ taglib tagdir="/WEB-INF/tags/shared" prefix="shared" %>
 
 <c:set var="jsIncludes">
-  <script type="text/javascript" src="<%= FrontEndLibrary.JQUERY_HIGHLIGHT %>"></script>
   <script type="text/javascript" src="/js/instructorSearch.js"></script>
 </c:set>
 
