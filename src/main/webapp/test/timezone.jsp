@@ -1,6 +1,5 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%@ page pageEncoding="UTF-8" %>
-<%@ page import="teammates.common.util.FrontEndLibrary" %>
 <%@ page import="java.time.ZoneId" %>
 <%@ page import="java.time.Instant" %>
 <%@ page import="java.util.ArrayList" %>

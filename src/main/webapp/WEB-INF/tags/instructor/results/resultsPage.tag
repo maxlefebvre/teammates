@@ -1,7 +1,6 @@
 <%@ tag trimDirectiveWhitespaces="true" %>
 <%@ tag description="Generic InstructorFeedbackResults Page" pageEncoding="UTF-8" %>
 <%@ tag import="teammates.common.util.Const" %>
-<%@ tag import="teammates.common.util.FrontEndLibrary" %>
 <%@ taglib tagdir="/WEB-INF/tags/instructor" prefix="ti" %>
 <%@ attribute name="title" required="true" %>
 <%@ attribute name="jsIncludes" %>

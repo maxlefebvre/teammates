@@ -1,6 +1,5 @@
 <%@ tag trimDirectiveWhitespaces="true" %>
 <%@ tag description="Generic TEAMMATES Help Page" pageEncoding="UTF-8" %>
-<%@ tag import="teammates.common.util.FrontEndLibrary" %>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <!DOCTYPE html>
 <html>
