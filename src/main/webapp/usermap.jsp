@@ -4,12 +4,12 @@
 <%@ taglib tagdir="/WEB-INF/tags" prefix="t" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="jsIncludes">
-  <script type="text/javascript" src="<%= FrontEndLibrary.D3 %>"></script>
-  <script type="text/javascript" src="<%= FrontEndLibrary.TOPOJSON %>"></script>
-  <script type="text/javascript" src="<%= FrontEndLibrary.DATAMAPS %>"></script>
+  <script type="text/javascript" src="https://unpkg.com/d3@3.5.17/d3.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/topojson@1.6.27/build/topojson.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/datamaps@0.5.8/dist/datamaps.none.min.js"></script>
   <script type="text/javascript" src="/js/userMap.js"></script>
 </c:set>
-<c:set var="geoDataUrl" value="<%= FrontEndLibrary.WORLDMAP %>" />
+<c:set var="geoDataUrl" value="https://unpkg.com/datamaps@0.5.8/src/js/data/world.hires.topo.json" />
 <t:staticPage jsIncludes="${jsIncludes}">
   <main>
     <input type="hidden" id="geo-data-url" value="${geoDataUrl}">
