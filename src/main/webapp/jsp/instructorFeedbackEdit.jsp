@@ -12,7 +12,7 @@
 <%@ taglib tagdir="/WEB-INF/tags/instructor/feedbacks" prefix="feedbacks" %>
 
 <c:set var="jsIncludes">
-  <script type="text/javascript" src="<%= FrontEndLibrary.TINYMCE %>"></script>
+  <script type="text/javascript" src="/js/libs-tinymce.js"></script>
   <script type="text/javascript" src="/js/libs-moment.js"></script>
   <script type="text/javascript" src="/data/moment-timezone-with-data-2013-2023.min.js"></script>
   <script type="text/javascript" src="/js/instructorFeedbackEdit.js"></script>
