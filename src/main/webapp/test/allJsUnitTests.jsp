@@ -6,7 +6,7 @@
   <head>
     <title>QUnit Testing Result</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<%= FrontEndLibrary.QUNIT_CSS %>" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/qunit@2.6.0/qunit/qunit.css" type="text/css" media="screen">
   </head>
   <body>
     <div id="qunit"></div>
@@ -40,8 +40,8 @@
     <!-- Library scripts -->
     <script type="text/javascript" src="/js/libs-common.js"></script>
     <script type="text/javascript" src="/js/libs-tinymce.js"></script>
-    <script type="text/javascript" src="<%= FrontEndLibrary.QUNIT %>"></script>
-    <script type="text/javascript" src="<%= FrontEndLibrary.BLANKET %>"></script>
+    <script type="text/javascript" src="https://unpkg.com/qunit@2.6.0/qunit/qunit.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/blanket@1.2.3/dist/qunit/blanket.min.js"></script>
 
     <script type="text/javascript" src="/test/jsUnitTests.js" data-cover></script>
   </body>
